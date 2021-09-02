@@ -1,0 +1,5 @@
+
+<ng-container *ngIf="draw">
+  <app-header (onNewDeck)="newDeck()"></app-header>
+  <app-deck [draw]="draw"></app-deck>
+</ng-container>
